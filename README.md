@@ -1,5 +1,9 @@
 # zix
 
+⚠️ This project is in its very early stages.
+
+We need your suggestions.
+
 ## Description
 A reimagining of Nix that aims to address several of Nix's drawbacks, such as its non-FHS store layout, steep learning curve, and other usability issues.
 
@@ -15,6 +19,9 @@ A reimagining of Nix that aims to address several of Nix's drawbacks, such as it
 - Use OverlayFS for building and composing layers.
 - Provide processes to copy or link artifacts from the store.
 - May leverage [bootc](https://github.com/bootc-dev/bootc) where appropriate.
+
+## Other part of this project
+- [**zix-daemon**](zix-daemon.md)
 
 ## Links that may be useful
 - [nix2container](https://github.com/nlewo/nix2container)
